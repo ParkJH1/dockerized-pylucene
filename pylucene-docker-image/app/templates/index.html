@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Page</title>
+</head>
+<body>
+    <h1>Search Result</h1>
+
+    {% if result %}
+        <ul>
+        {% for r in result %}
+            <li>{{ r }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No result</p>
+    {% endif %}
+
+    <form action="/search" method="get">
+        <input type="text" name="query" placeholder="Input query">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
+
