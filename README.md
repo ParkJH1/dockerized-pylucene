@@ -22,7 +22,7 @@ dockerized-pylucene/
 │       └── IndexSourceFiles.py
 │   ├── Makefile
 │   ├── Dockerfile
-├── README.md
+└── README.md
 ```
 
 # 기술 스택
