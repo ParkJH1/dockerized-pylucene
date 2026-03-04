@@ -1,7 +1,7 @@
-# dockerized-pylucene
-Dockerized PyLucene environment for documents and source code search experimentation.
+# dockerized-pylucene-fastapi
+Dockerized PyLucene FastAPI environment for documents and source code search experimentation.
 
-문서 및 소스 코드 검색 실험을 위한 Docker 기반 PyLucene 실행 환경 구축
+문서 및 소스 코드 검색 실험을 위한 Docker 기반 PyLucene FastAPI 웹서버 실행 환경 구축
 
 # 포함된 기능
 - 📦 PyLucene, Apache Lucene, FastAPI 패키지 구조가 매우 정돈됨
@@ -12,7 +12,7 @@ Dockerized PyLucene environment for documents and source code search experimenta
 
 # 폴더 구조
 ```
-dockerized-pylucene/
+dockerized-pylucene-fastapi/
 │
 ├── pylucene-docker-image/
 │   └── app/
@@ -38,7 +38,7 @@ dockerized-pylucene/
 # 실행 방법
 ## 도커 이미지 빌드
 ```
-docker build -t pylucene-docker-image ./dockerized-pylucene/pylucene-docker-image/
+docker build -t pylucene-docker-image ./dockerized-pylucene-fastapi/pylucene-docker-image/
 ```
 
 ## 도커 컨테이너 실행
