@@ -4,11 +4,11 @@ Dockerized PyLucene environment for documents and source code search experimenta
 문서 및 소스 코드 검색 실험을 위한 Docker 기반 PyLucene 실행 환경 구축
 
 # 포함된 기능
-📦 PyLucene, Apache Lucene, FastAPI 패키지 구조가 매우 정돈됨
-🐳 Dockerfile 에 PyLucene 빌드 과정과 의존성 정보 모두 포함
-📖 Documents 와 Java Source Code 를 검색할 수 있는 웹서버 실행
-💡 Java Lucene 대신 Python에서 Lucene 사용
-✨ PyLucene 빌드 자동화
+- 📦 PyLucene, Apache Lucene, FastAPI 패키지 구조가 매우 정돈됨
+- 🐳 Dockerfile 에 PyLucene 빌드 과정과 의존성 정보 모두 포함
+- 📖 Documents 와 Java Source Code 를 검색할 수 있는 웹서버 실행
+- 💡 Java Lucene 대신 Python에서 Lucene 사용
+- ✨ PyLucene 빌드 자동화
 
 # 폴더 구조
 ```
